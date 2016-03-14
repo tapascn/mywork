@@ -29,8 +29,6 @@ class ContributeForm extends FormBase {
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
 
-echo "Here";
-
     $form['title'] = array(
       '#type' => 'textfield',
       '#title' => t('Title'),
