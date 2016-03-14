@@ -1,0 +1,13 @@
+#first_module.admin:
+# title: 'First module settings'
+# description: 'A basic module to return hello world'
+# parent: system.admin_config_development
+# route_name: first_module.content
+# weight: 1*/
+
+first_module.contact:
+  title: 'Hello Link'
+  url: 'internal:/first'
+  description: 'First Test Module..'
+  menu_name: main
+  weight: 1

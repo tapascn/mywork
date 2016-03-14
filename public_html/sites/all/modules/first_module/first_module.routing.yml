@@ -1,0 +1,14 @@
+first_module.content:
+  path: '/first'
+  defaults:
+    _controller: 'Drupal\first_module\FirstController::content'
+    _title: 'Hello world'
+  requirements:
+    _permission: 'access content'
+first_module.contribute_form:
+  path: '/contribute'
+  defaults:
+    _form: '\Drupal\first_module\Form\ContributeForm'
+    _title: 'Contribute page'
+  requirements:
+    _permission: 'access content'
